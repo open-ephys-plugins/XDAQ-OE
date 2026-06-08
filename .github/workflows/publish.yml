@@ -166,6 +166,7 @@ jobs:
                   cd dist/windows-repack
                   7za a ../$win_new_name plugins/XDAQ-OE.dll
                   7za a ../$win_new_name shared/XDAQ-OE
+                  7za a ../$win_new_name shared/xdaq_device.dll
                   cd ../..
 
                   if [[ -z dist/mac-universal ]]; then

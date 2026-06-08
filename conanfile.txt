@@ -2,7 +2,7 @@
 fmt/10.2.1
 nlohmann_json/3.11.3
 spdlog/1.13.0
-libxdaq/0.10.2
+libxdaq/0.10.3
 
 [generators]
 CMakeDeps
